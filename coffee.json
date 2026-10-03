@@ -1,0 +1,144 @@
+{
+    "шоколад": {
+        "espresso": {
+            "oxidation": 10,
+            "caffeine_content": 63,
+            "type": "Espresso-based",
+            "additives": false
+        },
+        "cappuccino": {
+            "oxidation": 12,
+            "caffeine_content": 63,
+            "type": "Espresso-based",
+            "additives": true
+        },
+		"flat white": {
+            "oxidation": 10,
+            "caffeine_content": 80,
+            "type": "Espresso-based",
+            "additives": true
+        },
+        "cortado": {
+            "oxidation": 12,
+            "caffeine_content": 63,
+            "type": "Espresso-based",
+            "additives": true
+        },
+        "nitro cold brew": {
+            "oxidation": 5,
+            "caffeine_content": 100,
+            "type": "Cold Brew",
+            "additives": false
+        }
+    },
+    "карамель": {
+        "americano": {
+            "oxidation": 15,
+            "caffeine_content": 95,
+            "type": "Espresso-based",
+            "additives": false
+        },
+        "macchiato": {
+            "oxidation": 10,
+            "caffeine_content": 63,
+            "type": "Espresso-based",
+            "additives": true
+        },
+        "irish coffee": {
+            "oxidation": 15,
+            "caffeine_content": 95,
+            "type": "Espresso-based",
+            "additives": true
+        },
+        "dalgona coffee": {
+            "oxidation": 10,
+            "caffeine_content": 80,
+            "type": "Whipped Coffee",
+            "additives": true
+        },
+        "iced coffee": {
+            "oxidation": 20,
+            "caffeine_content": 95,
+            "type": "Filter Coffee",
+            "additives": true
+        }
+    },
+    "в целом сладкий": {
+        "latte": {
+            "oxidation": 12,
+            "caffeine_content": 80,
+            "type": "Espresso-based",
+            "additives": true
+        }
+    },
+    "сладкий запах": {
+        "cold brew": {
+            "oxidation": 5,
+            "caffeine_content": 100,
+            "type": "Cold Brew",
+            "additives": false
+        }
+    },
+    "роза": {
+        "turkish coffee": {
+            "oxidation": 5,
+            "caffeine_content": 50,
+            "type": "Traditional",
+            "additives": true
+        }
+    },
+    "ваниль": {
+        "mocha": {
+            "oxidation": 12,
+            "caffeine_content": 70,
+            "type": "Espresso-based",
+            "additives": true
+        },
+        "affogato": {
+            "oxidation": 8,
+            "caffeine_content": 63,
+            "type": "Espresso-based",
+            "additives": true
+        }
+    },
+    "пепельный": {
+        "drip coffee": {
+            "oxidation": 15,
+            "caffeine_content": 95,
+            "type": "Filter Coffee",
+            "additives": false
+        }
+    },
+    "тёмный шоколад": {
+        "french press": {
+            "oxidation": 18,
+            "caffeine_content": 100,
+            "type": "Immersion Brewing",
+            "additives": false
+        }
+    },
+    "яблоко": {
+        "aeropress": {
+            "oxidation": 12,
+            "caffeine_content": 80,
+            "type": "Immersion Brewing",
+            "additives": false
+        }
+    },
+    "жасмин": {
+        "pour over": {
+            "oxidation": 10,
+            "caffeine_content": 95,
+            "type": "Filter Coffee",
+            "additives": false
+        }
+    },
+    "вишня": {
+        "vietnamese egg coffee": {
+            "oxidation": 6,
+            "caffeine_content": 150,
+            "type": "Traditional",
+            "additives": true
+        }
+    }
+}

@@ -1,0 +1,115 @@
+graph {
+	0 [label="Кофе"]
+	1 [label="Фруктовый"]
+	2 [label="Ягоды"]
+	3 [label="Ежевика"]
+	2 -- 3
+	4 [label="Малина"]
+	2 -- 4
+	5 [label="Черника"]
+	2 -- 5
+	6 [label="Клубника"]
+	2 -- 6
+	1 -- 2
+	7 [label="Сухофрукты"]
+	8 [label="Изюм"]
+	7 -- 8
+	9 [label="Чернослив"]
+	7 -- 9
+	1 -- 7
+	a [label="Другие фрукты"]
+	b [label="Кокос"]
+	a -- b
+	c [label="ВИШНЯ additives vietnamese egg coffee Traditional 6 high"]
+	a -- c
+	d [label="Гранат"]
+	a -- d
+	e [label="Ананас"]
+	a -- e
+	f [label="Виноград"]
+	a -- f
+	g [label="ЯБЛОКО not_additives aeropress Immersion Brewing 12 average"]
+	a -- g
+	h [label="Персик"]
+	a -- h
+	i [label="Груша"]
+	a -- i
+	1 -- a
+	j [label="Цитрусовые"]
+	k [label="Грейпфрут"]
+	j -- k
+	l [label="Апельсин"]
+	j -- l
+	m [label="Лимон"]
+	j -- m
+	n [label="Лайм"]
+	j -- n
+	1 -- j
+	0 -- 1
+	o [label="Цветочной"]
+	p [label="Цветочный"]
+	q [label="ЖАСМИН not_additives pour over Filter Coffee 10 average"]
+	p -- q
+	r [label="РОЗА additives turkish coffee Traditional 5 average"]
+	p -- r
+	s [label="Ромашка"]
+	p -- s
+	o -- p
+	t [label="Чёрный кофе"]
+	o -- t
+	0 -- o
+	u [label="Сладкий"]
+	v [label="Коричневый сахар"]
+	w [label="Мёд"]
+	v -- w
+	x [label="КАРАМЕЛЬ not_additives americano Espresso-based 15 average"]
+	y [label="КАРАМЕЛЬ additives macchiato Espresso-based 10 average"]
+	z [label="КАРАМЕЛЬ additives irish coffee Espresso-based 15 average"]
+	A [label="КАРАМЕЛЬ additives dalgona coffee Whipped Coffee 10 average"]
+	B [label="КАРАМЕЛЬ additives iced coffee Filter Coffee 20 average"]
+	v -- x
+	v -- y
+	v -- z
+	v -- A
+	v -- B
+	C [label="Кленовый сироп"]
+	v -- C
+	D [label="Меласса"]
+	v -- D
+	u -- v
+	E [label="ВАНИЛЬ additives mocha Espresso-based 12 average"]
+	F [label="ВАНИЛЬ additives affogato Espresso-based 8 average"]
+	u -- E
+	u -- F
+	G [label="Ванилин"]
+	u -- G
+	H [label="В ЦЕЛОМ СЛАДКИЙ additives latte Espresso-based 12 average"]
+	u -- H
+	I [label="СЛАДКИЙ ЗАПАХ not_additives cold brew Cold Brew 5 high"]
+	u -- I
+	0 -- u
+	J [label="Ореховый/Какао"]
+	K [label="Ореховый"]
+	L [label="ТЁМНЫЙ ШОКОЛАД not_additives french press Immersion Brewing 18 high"]
+	K -- L
+	M [label="ШОКОЛАД not_additives espresso Espresso-based 10 average"]
+	N [label="ШОКОЛАД additives cappuccino Espresso-based 12 average"]
+	O [label="ШОКОЛАД additives flat white Espresso-based 10 average"]
+	P [label="ШОКОЛАД additives cortado Espresso-based 12 average"]
+	Q [label="ШОКОЛАД not_additives nitro cold brew Cold Brew 5 high"]
+	K -- M
+	K -- N
+	K -- O
+	K -- P
+	K -- Q
+	J -- K
+	R [label="Какао"]
+	S [label="Миндаль"]
+	R -- S
+	T [label="Фундук"]
+	R -- T
+	U [label="Арахис"]
+	R -- U
+	J -- R
+	0 -- J
+}
